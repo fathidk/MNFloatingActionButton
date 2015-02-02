@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5CAE1FC1A7DC0200035A24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE1FB1A7DC0200035A24F /* main.m */; };
-		E5CAE1FF1A7DC0200035A24F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE1FE1A7DC0200035A24F /* AppDelegate.m */; };
-		E5CAE2021A7DC0200035A24F /* MNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2011A7DC0200035A24F /* MNMainViewController.m */; };
-		E5CAE2071A7DC0200035A24F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CAE2061A7DC0200035A24F /* Images.xcassets */; };
-		E5CAE2211A7DC0FC0035A24F /* MNMaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2201A7DC0FC0035A24F /* MNMaterialButton.m */; };
+		E5CAE2311A7F39E80035A24F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2291A7F39E80035A24F /* AppDelegate.m */; };
+		E5CAE2321A7F39E80035A24F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CAE22A1A7F39E80035A24F /* Images.xcassets */; };
+		E5CAE2341A7F39E80035A24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE22C1A7F39E80035A24F /* main.m */; };
+		E5CAE2351A7F39E80035A24F /* MNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */; };
+		E5CAE2361A7F39E80035A24F /* MNMaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5CAE1F61A7DC0200035A24F /* MNMaterialButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNMaterialButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5CAE1FA1A7DC0200035A24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5CAE1FB1A7DC0200035A24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E5CAE1FD1A7DC0200035A24F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E5CAE1FE1A7DC0200035A24F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E5CAE2001A7DC0200035A24F /* MNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNMainViewController.h; sourceTree = "<group>"; };
-		E5CAE2011A7DC0200035A24F /* MNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNMainViewController.m; sourceTree = "<group>"; };
-		E5CAE2061A7DC0200035A24F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5CAE21F1A7DC0FC0035A24F /* MNMaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMaterialButton.h; sourceTree = "<group>"; };
-		E5CAE2201A7DC0FC0035A24F /* MNMaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMaterialButton.m; sourceTree = "<group>"; };
+		E5CAE2281A7F39E80035A24F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5CAE2291A7F39E80035A24F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5CAE22A1A7F39E80035A24F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5CAE22B1A7F39E80035A24F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5CAE22C1A7F39E80035A24F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5CAE22D1A7F39E80035A24F /* MNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMainViewController.h; sourceTree = "<group>"; };
+		E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMainViewController.m; sourceTree = "<group>"; };
+		E5CAE22F1A7F39E80035A24F /* MNMaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMaterialButton.h; sourceTree = "<group>"; };
+		E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMaterialButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		E5CAE1ED1A7DC0200035A24F = {
 			isa = PBXGroup;
 			children = (
-				E5CAE1F81A7DC0200035A24F /* MNButtonTest */,
+				E5CAE2271A7F39E80035A24F /* MNMaterialButtonExample */,
 				E5CAE1F71A7DC0200035A24F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,28 +54,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5CAE1F81A7DC0200035A24F /* MNButtonTest */ = {
+		E5CAE2271A7F39E80035A24F /* MNMaterialButtonExample */ = {
 			isa = PBXGroup;
 			children = (
-				E5CAE1FD1A7DC0200035A24F /* AppDelegate.h */,
-				E5CAE1FE1A7DC0200035A24F /* AppDelegate.m */,
-				E5CAE2001A7DC0200035A24F /* MNMainViewController.h */,
-				E5CAE2011A7DC0200035A24F /* MNMainViewController.m */,
-				E5CAE21F1A7DC0FC0035A24F /* MNMaterialButton.h */,
-				E5CAE2201A7DC0FC0035A24F /* MNMaterialButton.m */,
-				E5CAE2061A7DC0200035A24F /* Images.xcassets */,
-				E5CAE1F91A7DC0200035A24F /* Supporting Files */,
+				E5CAE2281A7F39E80035A24F /* AppDelegate.h */,
+				E5CAE2291A7F39E80035A24F /* AppDelegate.m */,
+				E5CAE22A1A7F39E80035A24F /* Images.xcassets */,
+				E5CAE22B1A7F39E80035A24F /* Info.plist */,
+				E5CAE22C1A7F39E80035A24F /* main.m */,
+				E5CAE22D1A7F39E80035A24F /* MNMainViewController.h */,
+				E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */,
+				E5CAE22F1A7F39E80035A24F /* MNMaterialButton.h */,
+				E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */,
 			);
-			path = MNButtonTest;
-			sourceTree = "<group>";
-		};
-		E5CAE1F91A7DC0200035A24F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5CAE1FA1A7DC0200035A24F /* Info.plist */,
-				E5CAE1FB1A7DC0200035A24F /* main.m */,
-			);
-			name = "Supporting Files";
+			path = MNMaterialButtonExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CAE2071A7DC0200035A24F /* Images.xcassets in Resources */,
+				E5CAE2321A7F39E80035A24F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CAE2021A7DC0200035A24F /* MNMainViewController.m in Sources */,
-				E5CAE2211A7DC0FC0035A24F /* MNMaterialButton.m in Sources */,
-				E5CAE1FF1A7DC0200035A24F /* AppDelegate.m in Sources */,
-				E5CAE1FC1A7DC0200035A24F /* main.m in Sources */,
+				E5CAE2351A7F39E80035A24F /* MNMainViewController.m in Sources */,
+				E5CAE2341A7F39E80035A24F /* main.m in Sources */,
+				E5CAE2311A7F39E80035A24F /* AppDelegate.m in Sources */,
+				E5CAE2361A7F39E80035A24F /* MNMaterialButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +228,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MNButtonTest/Info.plist;
+				INFOPLIST_FILE = MNMaterialButtonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MNMaterialButtonExample;
 			};
@@ -246,7 +238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MNButtonTest/Info.plist;
+				INFOPLIST_FILE = MNMaterialButtonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MNMaterialButtonExample;
 			};
