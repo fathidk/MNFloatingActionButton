@@ -17,7 +17,8 @@
 - (void)MNMaterialButtonPressed:(MNMaterialButton *)button;
 
 @end
-IB_DESIGNABLE
+
+//IB_DESIGNABLE. Soon http://i3.kym-cdn.com/entries/icons/original/000/005/673/soon_(1).jpg
 @interface MNMaterialButton : UIView
 
 @property (nonatomic, weak) id<MNMaterialButtonDelegate> delegate;
@@ -26,12 +27,12 @@ IB_DESIGNABLE
 
 // Defaults to plus symbol. Set to nil to remove image completely.
 @property (nonatomic, strong) UIImageView *centerImageView;
-@property (nonatomic, strong) IBInspectable UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *backgroundColor;
 
 // Defaults to background color because I was inspired by this http://ianstormtaylor.com/design-tip-never-use-black/
-@property (nonatomic, strong) IBInspectable UIColor *shadowColor;
+@property (nonatomic, strong) UIColor *shadowColor;
 // Default = 0.6
-@property (nonatomic) CGFloat IBInspectable shadowOpacity;
+@property (nonatomic) CGFloat shadowOpacity;
 // Default = 1.5
 @property (nonatomic) CGFloat IBInspectable shadowRadius;
 
