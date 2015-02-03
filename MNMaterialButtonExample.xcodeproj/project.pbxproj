@@ -12,6 +12,8 @@
 		E5CAE2341A7F39E80035A24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE22C1A7F39E80035A24F /* main.m */; };
 		E5CAE2351A7F39E80035A24F /* MNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */; };
 		E5CAE2361A7F39E80035A24F /* MNMaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */; };
+		E5CAE23A1A806EB40035A24F /* IBDesignableTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAE2381A806EB40035A24F /* IBDesignableTestViewController.m */; };
+		E5CAE23B1A806EB40035A24F /* IBDesignableTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5CAE2391A806EB40035A24F /* IBDesignableTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMainViewController.m; sourceTree = "<group>"; };
 		E5CAE22F1A7F39E80035A24F /* MNMaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMaterialButton.h; sourceTree = "<group>"; };
 		E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMaterialButton.m; sourceTree = "<group>"; };
+		E5CAE2371A806EB40035A24F /* IBDesignableTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDesignableTestViewController.h; sourceTree = "<group>"; };
+		E5CAE2381A806EB40035A24F /* IBDesignableTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDesignableTestViewController.m; sourceTree = "<group>"; };
+		E5CAE2391A806EB40035A24F /* IBDesignableTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDesignableTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,9 @@
 				E5CAE22E1A7F39E80035A24F /* MNMainViewController.m */,
 				E5CAE22F1A7F39E80035A24F /* MNMaterialButton.h */,
 				E5CAE2301A7F39E80035A24F /* MNMaterialButton.m */,
+				E5CAE2371A806EB40035A24F /* IBDesignableTestViewController.h */,
+				E5CAE2381A806EB40035A24F /* IBDesignableTestViewController.m */,
+				E5CAE2391A806EB40035A24F /* IBDesignableTestViewController.xib */,
 			);
 			path = MNMaterialButtonExample;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5CAE2321A7F39E80035A24F /* Images.xcassets in Resources */,
+				E5CAE23B1A806EB40035A24F /* IBDesignableTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5CAE2351A7F39E80035A24F /* MNMainViewController.m in Sources */,
+				E5CAE23A1A806EB40035A24F /* IBDesignableTestViewController.m in Sources */,
 				E5CAE2341A7F39E80035A24F /* main.m in Sources */,
 				E5CAE2311A7F39E80035A24F /* AppDelegate.m in Sources */,
 				E5CAE2361A7F39E80035A24F /* MNMaterialButton.m in Sources */,

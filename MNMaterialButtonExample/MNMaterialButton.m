@@ -7,6 +7,7 @@
 //
 
 #import "MNMaterialButton.h"
+//#03A9F4 - Accent
 
 @interface MNMaterialButton ()
 
@@ -21,7 +22,6 @@
 
 static const CGFloat animationDuration = 0.05f;
 static const CGFloat scale = 0.95f;
-
 static const CGFloat shadowAlpha = 0.6f;
 
 @implementation MNMaterialButton
@@ -37,7 +37,7 @@ static const CGFloat shadowAlpha = 0.6f;
 - (void)commonInit
 {
     // Initial Value setup
-    self.backgroundColor = [UIColor blueColor];
+    self.backgroundColor = [UIColor colorWithRed:33.0f/255.0f green:150.0f/255.0f blue:243.0f/255.0f alpha:1.0f];
     self.shadowOpacity = 0.6f;
     self.shadowRadius = 1.5f;
     self.animationScale = 0.95f;
@@ -58,7 +58,8 @@ static const CGFloat shadowAlpha = 0.6f;
     
     self.centerImageView.center = self.backgroundCircle.center;
     
-    [self.backgroundCircle.layer setShadowColor:self.backgroundColor.CGColor];
+    
+    [self.backgroundCircle.layer setShadowColor:self.shadowColor ? self.shadowColor.CGColor : self.backgroundColor.CGColor];
     [self.backgroundCircle.layer setShadowOpacity:self.shadowOpacity];
     [self.backgroundCircle.layer setShadowRadius:self.shadowRadius];
     [self.backgroundCircle.layer setShadowOffset:CGSizeMake(1.0, 1.0)];
@@ -117,6 +118,15 @@ static const CGFloat shadowAlpha = 0.6f;
     self.backgroundCircle.layer.shadowOpacity = endOpacity;
     
 }
+
+#pragma mark - Setters
+
+- (void)setBackgroundColor:(UIColor *)backgroundColor
+{
+    _backgroundColor = backgroundColor;
+    _backgroundCircle.backgroundColor = _backgroundColor;
+}
+
 
 #pragma mark - Getters
 
