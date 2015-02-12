@@ -8,21 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class MNMaterialButton;
-
-@protocol MNMaterialButtonDelegate <NSObject>
-
-@optional
-
-- (void)MNMaterialButtonPressed:(MNMaterialButton *)button;
-
-@end
 
 //IB_DESIGNABLE. Soon http://i3.kym-cdn.com/entries/icons/original/000/005/673/soon_(1).jpg
 IB_DESIGNABLE
-@interface MNMaterialButton : UIView
-
-@property (nonatomic, weak) id<MNMaterialButtonDelegate> delegate;
+@interface MNMaterialButton : UIControl
 
 // -- Appearance
 

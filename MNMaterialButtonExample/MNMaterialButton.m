@@ -69,20 +69,26 @@ static const CGFloat shadowAlpha = 0.6f;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    [super touchesBegan:touches withEvent:event];
     [self animateToSelectedState];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    [super touchesEnded:touches withEvent:event];
+    
     [self animateToDeselectedState];
-    if ([self.delegate respondsToSelector:@selector(MNMaterialButtonPressed:)]) {
-        [self.delegate MNMaterialButtonPressed:self];
-    }
+    [self sendActionsForControlEvents:UIControlEventTouchUpInside];
+
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    [super touchesCancelled:touches withEvent:event];
+
     [self animateToDeselectedState];
+    
+    [self sendActionsForControlEvents:UIControlEventTouchCancel];
 }
 
 #pragma mark - Animate states

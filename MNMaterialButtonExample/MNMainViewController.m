@@ -9,7 +9,7 @@
 #import "MNMainViewController.h"
 #import "MNMaterialButton.h"
 
-@interface MNMainViewController () <MNMaterialButtonDelegate>
+@interface MNMainViewController ()
 
 @property (nonatomic, strong) MNMaterialButton *defaultButton;
 @property (nonatomic, strong) MNMaterialButton *customButton;
@@ -27,28 +27,28 @@
     self.defaultButton = [[MNMaterialButton alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
     self.defaultButton.center = self.view.center;
     
-    self.defaultButton.delegate = self;
+    [self.defaultButton addTarget:self action:@selector(defaultButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 
     self.customButton = [[MNMaterialButton alloc] initWithFrame:CGRectMake(self.view.center.x - 30, self.view.center.y - 150, 60, 60)];
-    self.customButton.delegate = self;
     
     self.customButton.backgroundColor = [UIColor colorWithRed:255/255.0f green:87.0f/255.0f blue:34.0f/255.0f alpha:1.0f];
+    
+    [self.customButton addTarget:self action:@selector(customButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.defaultButton];
     [self.view addSubview:self.customButton];
 }
 
-#pragma mark - Button Delegate
+#pragma mark - Actions
 
-- (void)MNMaterialButtonPressed:(MNMaterialButton *)button
+- (IBAction)defaultButtonPressed:(id)sender
 {
-    if (button == self.defaultButton) {
-        NSLog(@"Default");
-    } else if (button == self.customButton) {
-        NSLog(@"Custom");
-    }
-    
+    NSLog(@"Default Button pressed");
 }
 
+- (IBAction)customButtonPressed:(id)sender
+{
+    NSLog(@"Custom Button pressed");
+}
 
 @end
