@@ -26,6 +26,16 @@ static const CGFloat shadowAlpha = 0.6f;
 
 @implementation MNMaterialButton
 
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [self commonInit];
+    }
+    return self;
+    
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
