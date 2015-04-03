@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MNMaterialButton"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A F.A.B for iOS"
   s.description      = "A customisable FAB (Floating Action Button)"
   s.homepage         = "http://matthewnydam.com/"
