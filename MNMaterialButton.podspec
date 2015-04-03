@@ -7,10 +7,11 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Matt Nydam" => "matt@matthewnydam.com" }
   s.source           = { :git => "https://github.com/mattnydam/MNMaterialButton.git", :tag => s.version.to_s }
-
+  
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'MNMaterialButton'
+  s.resource_bundle = 'MNMaterialButton/MNMaterialButtonAssets.bundle' 
 
 end
