@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name             = "MNFloatingActionButton"
   s.summary          = "A F.A.B for iOS. Such fabulous."
   s.description      = "A customisable FAB (Floating Action Button)"
-  s.homepage         = "http://matthewnydam.com/"
+  s.homepage         = "https://github.com/mattnydam/MNFloatingActionButton"
   s.license          = 'MIT' 
   s.author           = { "Matt Nydam" => "matt@matthewnydam.com" }
 
