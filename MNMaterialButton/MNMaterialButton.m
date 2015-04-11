@@ -7,22 +7,29 @@
 //
 
 #import "MNMaterialButton.h"
-//#03A9F4 - Accent
+
+typedef NS_ENUM(NSInteger, ShadowState) {
+    ShadowStateShown,
+    ShadowStateHidden
+};
 
 @interface MNMaterialButton ()
+
+@property (nonatomic) BOOL isAnimating;
 
 @property (nonatomic, strong) UIView *backgroundCircle;
 
 - (void)animateToSelectedState;
 - (void)animateToDeselectedState;
 
-- (void)animateShadowOn:(BOOL)shadowOn;
+- (void)toggleShadowAnimationToState:(ShadowState)state;
 
 @end
 
 static const CGFloat animationDuration = 0.05f;
-static const CGFloat scale = 0.95f;
-static const CGFloat shadowAlpha = 0.6f;
+static const CGFloat animationScale = 0.85f;
+static const CGFloat shadowOpacity = 0.6f;
+static const CGFloat shadowRadius = 1.5f;
 
 @implementation MNMaterialButton
 
@@ -45,33 +52,37 @@ static const CGFloat shadowAlpha = 0.6f;
 
 - (void)commonInit
 {
-    // Initial Value setup
+    self.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.4f];
     self.backgroundColor = [UIColor colorWithRed:33.0f/255.0f green:150.0f/255.0f blue:243.0f/255.0f alpha:1.0f];
-    self.shadowOpacity = 0.6f;
-    self.shadowRadius = 1.5f;
-    self.animationScale = 0.95f;
-    self.animationDuration = 0.05f;
-    
     self.backgroundCircle.backgroundColor = self.backgroundColor;
+
+    self.shadowOpacity = shadowOpacity;
+    self.shadowRadius = shadowRadius;
+    self.animationScale = animationScale;
+    self.animationDuration = animationDuration;
     
     [self.backgroundCircle addSubview:self.centerImageView];
     [self addSubview:self.backgroundCircle];
 }
 
+#pragma mark - Layout
+
 - (void)layoutSubviews
 {
     [super layoutSubviews];
     
-    self.backgroundCircle.frame = self.bounds;
-    self.backgroundCircle.layer.cornerRadius = self.bounds.size.height/2;
-    
     self.centerImageView.center = self.backgroundCircle.center;
-    
-    
-    [self.backgroundCircle.layer setShadowColor:self.shadowColor ? self.shadowColor.CGColor : self.backgroundColor.CGColor];
-    [self.backgroundCircle.layer setShadowOpacity:self.shadowOpacity];
-    [self.backgroundCircle.layer setShadowRadius:self.shadowRadius];
-    [self.backgroundCircle.layer setShadowOffset:CGSizeMake(1.0, 1.0)];
+
+    if (!self.isAnimating) {
+        
+        self.backgroundCircle.frame = self.bounds;
+        self.backgroundCircle.layer.cornerRadius = self.bounds.size.height/2;
+        
+        [self.backgroundCircle.layer setShadowColor:self.shadowColor ? self.shadowColor.CGColor : self.backgroundColor.CGColor];
+        [self.backgroundCircle.layer setShadowOpacity:self.shadowOpacity];
+        [self.backgroundCircle.layer setShadowRadius:self.shadowRadius];
+        [self.backgroundCircle.layer setShadowOffset:CGSizeMake(1.0, 1.0)];
+    }
 }
 
 #pragma mark - Touch Events
@@ -96,7 +107,6 @@ static const CGFloat shadowAlpha = 0.6f;
     [super touchesCancelled:touches withEvent:event];
 
     [self animateToDeselectedState];
-    
     [self sendActionsForControlEvents:UIControlEventTouchCancel];
 }
 
@@ -104,29 +114,35 @@ static const CGFloat shadowAlpha = 0.6f;
 
 - (void)animateToSelectedState
 {
-    [self animateShadowOn:NO];
+    self.isAnimating = YES;
+    [self toggleShadowAnimationToState:ShadowStateHidden];
     [UIView animateWithDuration:animationDuration animations:^{
-        self.transform = CGAffineTransformMakeScale(scale, scale);
+        self.backgroundCircle.transform = CGAffineTransformMakeScale(self.animationScale, self.animationScale);
+    } completion:^(BOOL finished) {
+        self.isAnimating = NO;
     }];
 }
 
 - (void)animateToDeselectedState
 {
-    [self animateShadowOn:YES];
+    self.isAnimating = YES;
+    [self toggleShadowAnimationToState:ShadowStateShown];
     [UIView animateWithDuration:animationDuration animations:^{
-        self.transform = CGAffineTransformMakeScale(1.0f, 1.0f);
+        self.backgroundCircle.transform = CGAffineTransformMakeScale(1.0f, 1.0f);
+    } completion:^(BOOL finished) {
+        self.isAnimating = NO;
     }];
 }
 
-- (void)animateShadowOn:(BOOL)shadowOn
+- (void)toggleShadowAnimationToState:(ShadowState)state
 {
     CGFloat endOpacity = 0.0f;
-    if (shadowOn) {
-        endOpacity = shadowAlpha;
+    if (state == ShadowStateShown) {
+        endOpacity = self.shadowOpacity;
     }
     
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"shadowOpacity"];
-    animation.fromValue = [NSNumber numberWithFloat:shadowAlpha];
+    animation.fromValue = [NSNumber numberWithFloat:self.shadowOpacity];
     animation.toValue = [NSNumber numberWithFloat:endOpacity];
     animation.duration = animationDuration;
     [self.backgroundCircle.layer addAnimation:animation forKey:@"shadowOpacity"];
