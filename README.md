@@ -4,17 +4,18 @@ A Floating Action Button for iOS.
 
 ###General Usage
 Just like a normal button, you instantiate with a frame and add as a subview.
-	```
+
 	MNFloatingActionButton *button = [MNFloatingActionButton alloc] initWithFrame:CGRect(0,0,50,50))];
 	[self.view addSubview:button];
-	```
+
 As it is a subclass of UIControl, you can add a target to listen to touch events. The touch events that are sent are:
 
 * UIControlEventTouchUpInside
 * UIControlEventTouchCancel
-	```
-	[button addTarget:self action:@selector(createButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-	```
+	
+```
+[button addTarget:self action:@selector(createButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+```
 
 You can also use MNFloatingActionButton in Storyboards and xibs by creating a UIView object and changing it's custom class to MNFloatingActionButton.
 	
