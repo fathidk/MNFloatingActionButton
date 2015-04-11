@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-
-//IB_DESIGNABLE. Soon http://i3.kym-cdn.com/entries/icons/original/000/005/673/soon_(1).jpg
 IB_DESIGNABLE
-@interface MNMaterialButton : UIControl
+@interface MNFloatingActionButton : UIControl
 
 // -- Appearance
 
@@ -28,7 +26,7 @@ IB_DESIGNABLE
 
 // -- Animation
 
-// Default = 0.95
+// Default = 0.85
 @property (nonatomic) CGFloat animationScale;
 // Default = 0.05f
 @property (nonatomic) CGFloat animationDuration;

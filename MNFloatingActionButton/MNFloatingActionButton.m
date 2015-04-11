@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 MN. All rights reserved.
 //
 
-#import "MNMaterialButton.h"
+#import "MNFloatingActionButton.m"
 
 typedef NS_ENUM(NSInteger, ShadowState) {
     ShadowStateShown,
     ShadowStateHidden
 };
 
-@interface MNMaterialButton ()
+@interface MNFloatingActionButton ()
 
 @property (nonatomic) BOOL isAnimating;
 
@@ -31,7 +31,7 @@ static const CGFloat animationScale = 0.85f;
 static const CGFloat shadowOpacity = 0.6f;
 static const CGFloat shadowRadius = 1.5f;
 
-@implementation MNMaterialButton
+@implementation MNFloatingActionButton
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
