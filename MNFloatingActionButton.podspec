@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT' 
   s.author           = { "Matt Nydam" => "matt@matthewnydam.com" }
 
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.source           = { :git => "https://github.com/mattnydam/MNFloatingActionButton.git", :tag => s.version.to_s }
   s.source_files     = "MNFloatingActionButton/*.{h,m}"
   s.resources        = "MNFloatingActionButton/Resources/*.png"
