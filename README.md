@@ -23,7 +23,7 @@ As it is a subclass of UIControl, you can add a target to listen to touch events
 * UIControlEventTouchUpInside
 * UIControlEventTouchCancel
 
-	[button addTarget:self action:@selector(createButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+		[button addTarget:self action:@selector(createButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 
 
 You can also use MNFloatingActionButton in Storyboards and xibs by creating a UIView object and changing it's custom class to MNFloatingActionButton.
