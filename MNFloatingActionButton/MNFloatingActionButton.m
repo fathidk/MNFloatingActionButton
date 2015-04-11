@@ -1,12 +1,12 @@
 //
-//  MNMaterialButton.m
+//  MNFloatingActionButton.m
 //  Matt Nydam
 //
 //  Created by Matthew Nydam on 1/12/14.
 //  Copyright (c) 2014 MN. All rights reserved.
 //
 
-#import "MNFloatingActionButton.m"
+#import "MNFloatingActionButton.h"
 
 typedef NS_ENUM(NSInteger, ShadowState) {
     ShadowStateShown,
@@ -96,16 +96,13 @@ static const CGFloat shadowRadius = 1.5f;
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesEnded:touches withEvent:event];
-    
     [self animateToDeselectedState];
     [self sendActionsForControlEvents:UIControlEventTouchUpInside];
-
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesCancelled:touches withEvent:event];
-
     [self animateToDeselectedState];
     [self sendActionsForControlEvents:UIControlEventTouchCancel];
 }

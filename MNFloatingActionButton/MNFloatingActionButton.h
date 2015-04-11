@@ -1,5 +1,5 @@
 //
-//  MNMaterialButton.h
+//  MNFloatingActionButton.h
 //  Matt Nydam
 //
 //  Created by Matthew Nydam on 1/12/14.
