@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048D5A5A0878BF7B90E3548C51CFC813 /* MNFloatingActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E244455B02CA3BF8574FBC366A2D5F63 /* MNFloatingActionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9F15F6B9D7C4212AB5C9542BFC01B7 /* Pods-MNFloatingActionButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 565B5F87625D555DEF7D4166901EE352 /* Pods-MNFloatingActionButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51D5C0F5D50C7DB38E7930EECEEFD2BC /* MNFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E87A5B6AB572E9B43A768EE42BC06 /* MNFloatingActionButton-dummy.m */; };
+		5D51125CD21CD3BDF885B556B4D8DA80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5F6C28E301D124FDEF3F523F51818DB0 /* MNFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDE407BA307D257399001BE8DD9431E /* MNFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F99856376DB123A34E5E00155068F8 /* Pods-MNFloatingActionButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCDA0C31870FE34FE393A57DBDC7C3E /* Pods-MNFloatingActionButton_Example-dummy.m */; };
+		A54702B0A7E374D09140D7055789C075 /* MNFloatingActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4CB53C46952ABAFCC7C1F700AFF4A1 /* MNFloatingActionButton.m */; };
+		AEC0D578BD5D95BD7ACEEB2F4D4CF692 /* Pods-MNFloatingActionButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B4AD947B21A65387E2C3705E33CFC8 /* Pods-MNFloatingActionButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B2953426CE720F81178F74A761AFD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D11AF4F1C6F6466FF61838E97E8733CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D1D7B98DD34A50FADA8702AF06D61A1F /* Pods-MNFloatingActionButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B178A689A63D92233B278749C06DA70 /* Pods-MNFloatingActionButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED87598EF7FEDC7B08844725F430776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A85413046EE613F74932EB091B09B0;
+			remoteInfo = MNFloatingActionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B1ADC54C0098513149E91229B19C82 /* Pods-MNFloatingActionButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MNFloatingActionButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BDE407BA307D257399001BE8DD9431E /* MNFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MNFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
+		28CD8FDE5A0F823829AF48D8EF77ED59 /* Pods-MNFloatingActionButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MNFloatingActionButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32D7F4DB15CFED83226ED43C773030B9 /* Pods-MNFloatingActionButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNFloatingActionButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34B4AD947B21A65387E2C3705E33CFC8 /* Pods-MNFloatingActionButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MNFloatingActionButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3DF38DBCD1DA04084D26A55B4FAAEF28 /* Pods-MNFloatingActionButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNFloatingActionButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		3F71307A25A565200DFDED415F655E10 /* Pods-MNFloatingActionButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNFloatingActionButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7291138EF2AF9B7817FFEC6EF3EAD4 /* Pods-MNFloatingActionButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MNFloatingActionButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E79597A5947C38279DE5391655A14F4 /* Pods-MNFloatingActionButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNFloatingActionButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		565B5F87625D555DEF7D4166901EE352 /* Pods-MNFloatingActionButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MNFloatingActionButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		5662D32546CA7FE17F98612B9B2159F3 /* Pods-MNFloatingActionButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MNFloatingActionButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F89A97E3CA02919D4F44DFF6835663 /* MNFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MNFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		770A8F14672D5DCD251364239E32FF7D /* Pods-MNFloatingActionButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNFloatingActionButton_Example-resources.sh"; sourceTree = "<group>"; };
+		7F401E6B8F567DF6AA32298C7F364F8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B08544BA7457F678BEBD8A9E9F5586 /* MNFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MNFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
+		8B178A689A63D92233B278749C06DA70 /* Pods-MNFloatingActionButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MNFloatingActionButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E1FBB45F8F8F4CCF2B31DA005FDDFD4 /* Pods-MNFloatingActionButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNFloatingActionButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8F648E5435833A2BB213DF7EF648F236 /* Pods-MNFloatingActionButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MNFloatingActionButton_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B22EEA6012FF7CE4B521FCA9A0CB661 /* Pods-MNFloatingActionButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MNFloatingActionButton_Example.modulemap"; sourceTree = "<group>"; };
+		AB564E3EEFD4B692EEECD526A3AE002F /* Pods_MNFloatingActionButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNFloatingActionButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F62C1E2275100D6744E39D1B03F6EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1528BA696ED3F5F189B890CCE48260 /* Pods_MNFloatingActionButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNFloatingActionButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE99402892FEFF9911C5F6BADA304EEC /* MNFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEB11C758D038BC773B64081A1F3991 /* Pods-MNFloatingActionButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNFloatingActionButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E244455B02CA3BF8574FBC366A2D5F63 /* MNFloatingActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MNFloatingActionButton.h; sourceTree = "<group>"; };
+		F17B674C1688191D776021741C0FE248 /* MNFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNFloatingActionButton.xcconfig; sourceTree = "<group>"; };
+		F24E87A5B6AB572E9B43A768EE42BC06 /* MNFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MNFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
+		F319341EDF5E4486F7AD01689B7769A9 /* Pods-MNFloatingActionButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNFloatingActionButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F40043CDB4BCE9B839CD0AC0C69B9574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4CB53C46952ABAFCC7C1F700AFF4A1 /* MNFloatingActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MNFloatingActionButton.m; sourceTree = "<group>"; };
+		FCCDA0C31870FE34FE393A57DBDC7C3E /* Pods-MNFloatingActionButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MNFloatingActionButton_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C1CE48C39C82C01A5370BA787A0C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D51125CD21CD3BDF885B556B4D8DA80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7FC378B86C2C0B4BDCAC96AA29525B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11AF4F1C6F6466FF61838E97E8733CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73F90FEBA689B141C334E944E3B769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B2953426CE720F81178F74A761AFD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B5A1AB107259839CADF141037D5B03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E8431AEA9CC56AF5B2BC99EA9DCDC4 /* Pods-MNFloatingActionButton_Example */,
+				EB3E03DF71D984BB8A10FCD40CFA9D0E /* Pods-MNFloatingActionButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E6DAC60537F5044B2527F0F5C586CA7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9F878B40B763EEA1F5F07CD258EA9 /* MNFloatingActionButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2FCE89383586162CE321766747A48FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE99402892FEFF9911C5F6BADA304EEC /* MNFloatingActionButton.framework */,
+				BE1528BA696ED3F5F189B890CCE48260 /* Pods_MNFloatingActionButton_Example.framework */,
+				AB564E3EEFD4B692EEECD526A3AE002F /* Pods_MNFloatingActionButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C333BDCD4F36892F8B3D3AA93FFB79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40043CDB4BCE9B839CD0AC0C69B9574 /* Info.plist */,
+				68F89A97E3CA02919D4F44DFF6835663 /* MNFloatingActionButton.modulemap */,
+				F17B674C1688191D776021741C0FE248 /* MNFloatingActionButton.xcconfig */,
+				F24E87A5B6AB572E9B43A768EE42BC06 /* MNFloatingActionButton-dummy.m */,
+				87B08544BA7457F678BEBD8A9E9F5586 /* MNFloatingActionButton-prefix.pch */,
+				1BDE407BA307D257399001BE8DD9431E /* MNFloatingActionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MNFloatingActionButton";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63E8431AEA9CC56AF5B2BC99EA9DCDC4 /* Pods-MNFloatingActionButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7F401E6B8F567DF6AA32298C7F364F8E /* Info.plist */,
+				9B22EEA6012FF7CE4B521FCA9A0CB661 /* Pods-MNFloatingActionButton_Example.modulemap */,
+				5662D32546CA7FE17F98612B9B2159F3 /* Pods-MNFloatingActionButton_Example-acknowledgements.markdown */,
+				4A7291138EF2AF9B7817FFEC6EF3EAD4 /* Pods-MNFloatingActionButton_Example-acknowledgements.plist */,
+				FCCDA0C31870FE34FE393A57DBDC7C3E /* Pods-MNFloatingActionButton_Example-dummy.m */,
+				8E1FBB45F8F8F4CCF2B31DA005FDDFD4 /* Pods-MNFloatingActionButton_Example-frameworks.sh */,
+				770A8F14672D5DCD251364239E32FF7D /* Pods-MNFloatingActionButton_Example-resources.sh */,
+				565B5F87625D555DEF7D4166901EE352 /* Pods-MNFloatingActionButton_Example-umbrella.h */,
+				32D7F4DB15CFED83226ED43C773030B9 /* Pods-MNFloatingActionButton_Example.debug.xcconfig */,
+				4E79597A5947C38279DE5391655A14F4 /* Pods-MNFloatingActionButton_Example.release.xcconfig */,
+			);
+			name = "Pods-MNFloatingActionButton_Example";
+			path = "Target Support Files/Pods-MNFloatingActionButton_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E6DAC60537F5044B2527F0F5C586CA7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2FCE89383586162CE321766747A48FCD /* Products */,
+				14B5A1AB107259839CADF141037D5B03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5FE22EEEB6BB7383FD6FE74C16D2C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E244455B02CA3BF8574FBC366A2D5F63 /* MNFloatingActionButton.h */,
+				FB4CB53C46952ABAFCC7C1F700AFF4A1 /* MNFloatingActionButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C4C9F878B40B763EEA1F5F07CD258EA9 /* MNFloatingActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				F2987881432E657D8CCB92341243086E /* MNFloatingActionButton */,
+				35C333BDCD4F36892F8B3D3AA93FFB79 /* Support Files */,
+			);
+			name = MNFloatingActionButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB3E03DF71D984BB8A10FCD40CFA9D0E /* Pods-MNFloatingActionButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F62C1E2275100D6744E39D1B03F6EA /* Info.plist */,
+				8F648E5435833A2BB213DF7EF648F236 /* Pods-MNFloatingActionButton_Tests.modulemap */,
+				28CD8FDE5A0F823829AF48D8EF77ED59 /* Pods-MNFloatingActionButton_Tests-acknowledgements.markdown */,
+				11B1ADC54C0098513149E91229B19C82 /* Pods-MNFloatingActionButton_Tests-acknowledgements.plist */,
+				8B178A689A63D92233B278749C06DA70 /* Pods-MNFloatingActionButton_Tests-dummy.m */,
+				CDEB11C758D038BC773B64081A1F3991 /* Pods-MNFloatingActionButton_Tests-frameworks.sh */,
+				3DF38DBCD1DA04084D26A55B4FAAEF28 /* Pods-MNFloatingActionButton_Tests-resources.sh */,
+				34B4AD947B21A65387E2C3705E33CFC8 /* Pods-MNFloatingActionButton_Tests-umbrella.h */,
+				3F71307A25A565200DFDED415F655E10 /* Pods-MNFloatingActionButton_Tests.debug.xcconfig */,
+				F319341EDF5E4486F7AD01689B7769A9 /* Pods-MNFloatingActionButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-MNFloatingActionButton_Tests";
+			path = "Target Support Files/Pods-MNFloatingActionButton_Tests";
+			sourceTree = "<group>";
+		};
+		F2987881432E657D8CCB92341243086E /* MNFloatingActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FE22EEEB6BB7383FD6FE74C16D2C0 /* Classes */,
+			);
+			path = MNFloatingActionButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79AB5F7E85436819AC0678003CA13E47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC0D578BD5D95BD7ACEEB2F4D4CF692 /* Pods-MNFloatingActionButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9775AA4DA46BA2920A86EACEC41E2E53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6C28E301D124FDEF3F523F51818DB0 /* MNFloatingActionButton-umbrella.h in Headers */,
+				048D5A5A0878BF7B90E3548C51CFC813 /* MNFloatingActionButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC7ED78BCAC23A3B4801B381E84BC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9F15F6B9D7C4212AB5C9542BFC01B7 /* Pods-MNFloatingActionButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		494DD1BC4A12F5EF1604FA0BDFFD77C2 /* Pods-MNFloatingActionButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E215AC789C22CE241A196604DB6AE6A1 /* Build configuration list for PBXNativeTarget "Pods-MNFloatingActionButton_Example" */;
+			buildPhases = (
+				EC2FAA0C19D80422C34BD246381E0ECD /* Sources */,
+				CF73F90FEBA689B141C334E944E3B769 /* Frameworks */,
+				D7AC7ED78BCAC23A3B4801B381E84BC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853B5A991FCB576917896709DBA00E66 /* PBXTargetDependency */,
+			);
+			name = "Pods-MNFloatingActionButton_Example";
+			productName = "Pods-MNFloatingActionButton_Example";
+			productReference = BE1528BA696ED3F5F189B890CCE48260 /* Pods_MNFloatingActionButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FFBAA44E5136A02857BCC9BD9DC1338 /* Pods-MNFloatingActionButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F084EC58B89BB882ED41138A43F52C /* Build configuration list for PBXNativeTarget "Pods-MNFloatingActionButton_Tests" */;
+			buildPhases = (
+				744F0F6D8BB5427CBCF44948AD1E2551 /* Sources */,
+				45C1CE48C39C82C01A5370BA787A0C30 /* Frameworks */,
+				79AB5F7E85436819AC0678003CA13E47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MNFloatingActionButton_Tests";
+			productName = "Pods-MNFloatingActionButton_Tests";
+			productReference = AB564E3EEFD4B692EEECD526A3AE002F /* Pods_MNFloatingActionButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A85413046EE613F74932EB091B09B0 /* MNFloatingActionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F2F3B838BC90344F8D2BDC0B0EB17A /* Build configuration list for PBXNativeTarget "MNFloatingActionButton" */;
+			buildPhases = (
+				381482F4E1EB9F7DC29EAFE028194894 /* Sources */,
+				5D7FC378B86C2C0B4BDCAC96AA29525B /* Frameworks */,
+				9775AA4DA46BA2920A86EACEC41E2E53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNFloatingActionButton;
+			productName = MNFloatingActionButton;
+			productReference = BE99402892FEFF9911C5F6BADA304EEC /* MNFloatingActionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2FCE89383586162CE321766747A48FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A85413046EE613F74932EB091B09B0 /* MNFloatingActionButton */,
+				494DD1BC4A12F5EF1604FA0BDFFD77C2 /* Pods-MNFloatingActionButton_Example */,
+				9FFBAA44E5136A02857BCC9BD9DC1338 /* Pods-MNFloatingActionButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381482F4E1EB9F7DC29EAFE028194894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D5C0F5D50C7DB38E7930EECEEFD2BC /* MNFloatingActionButton-dummy.m in Sources */,
+				A54702B0A7E374D09140D7055789C075 /* MNFloatingActionButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F0F6D8BB5427CBCF44948AD1E2551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D7B98DD34A50FADA8702AF06D61A1F /* Pods-MNFloatingActionButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FAA0C19D80422C34BD246381E0ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F99856376DB123A34E5E00155068F8 /* Pods-MNFloatingActionButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853B5A991FCB576917896709DBA00E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MNFloatingActionButton;
+			target = C2A85413046EE613F74932EB091B09B0 /* MNFloatingActionButton */;
+			targetProxy = 4ED87598EF7FEDC7B08844725F430776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A2A1F76FC58D5848DE8E6EA532D13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F319341EDF5E4486F7AD01689B7769A9 /* Pods-MNFloatingActionButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MNFloatingActionButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MNFloatingActionButton_Tests/Pods-MNFloatingActionButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MNFloatingActionButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48441ECD8105B620B26C7974640E8532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D7F4DB15CFED83226ED43C773030B9 /* Pods-MNFloatingActionButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MNFloatingActionButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MNFloatingActionButton_Example/Pods-MNFloatingActionButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MNFloatingActionButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E3A38E9288A33977C7F32C9CE67A623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17B674C1688191D776021741C0FE248 /* MNFloatingActionButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MNFloatingActionButton/MNFloatingActionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MNFloatingActionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MNFloatingActionButton/MNFloatingActionButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MNFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5C71E44E0F58C8FF19086A864EF9008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F71307A25A565200DFDED415F655E10 /* Pods-MNFloatingActionButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MNFloatingActionButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MNFloatingActionButton_Tests/Pods-MNFloatingActionButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MNFloatingActionButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B297950B0760BE1F55ED9DE31EB11995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E79597A5947C38279DE5391655A14F4 /* Pods-MNFloatingActionButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MNFloatingActionButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MNFloatingActionButton_Example/Pods-MNFloatingActionButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MNFloatingActionButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E69BF7AEA249C6436E62876C8509F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17B674C1688191D776021741C0FE248 /* MNFloatingActionButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MNFloatingActionButton/MNFloatingActionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MNFloatingActionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MNFloatingActionButton/MNFloatingActionButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MNFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F084EC58B89BB882ED41138A43F52C /* Build configuration list for PBXNativeTarget "Pods-MNFloatingActionButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C71E44E0F58C8FF19086A864EF9008 /* Debug */,
+				39A2A1F76FC58D5848DE8E6EA532D13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F2F3B838BC90344F8D2BDC0B0EB17A /* Build configuration list for PBXNativeTarget "MNFloatingActionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3A38E9288A33977C7F32C9CE67A623 /* Debug */,
+				E69BF7AEA249C6436E62876C8509F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E215AC789C22CE241A196604DB6AE6A1 /* Build configuration list for PBXNativeTarget "Pods-MNFloatingActionButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48441ECD8105B620B26C7974640E8532 /* Debug */,
+				B297950B0760BE1F55ED9DE31EB11995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

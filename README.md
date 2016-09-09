@@ -1,46 +1,29 @@
 # MNFloatingActionButton
 
-A little iOS experiment, a Floating Action Button.
+[![CI Status](http://img.shields.io/travis/Matt Nydam/MNFloatingActionButton.svg?style=flat)](https://travis-ci.org/Matt Nydam/MNFloatingActionButton)
+[![Version](https://img.shields.io/cocoapods/v/MNFloatingActionButton.svg?style=flat)](http://cocoapods.org/pods/MNFloatingActionButton)
+[![License](https://img.shields.io/cocoapods/l/MNFloatingActionButton.svg?style=flat)](http://cocoapods.org/pods/MNFloatingActionButton)
+[![Platform](https://img.shields.io/cocoapods/p/MNFloatingActionButton.svg?style=flat)](http://cocoapods.org/pods/MNFloatingActionButton)
 
-![button gif](https://raw.github.com/mattnydam/MNFloatingActionButton/master/button.gif)
+## Example
 
-###Installation
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-As Cocoapod https://cocoapods.org
+## Requirements
 
-	pod 'MNFloatingActionButton', '~> 0.1'
+## Installation
 
-Alternatively, add the images and .h &.m files to your project.
+MNFloatingActionButton is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-###General Usage
-Just like a normal button, you instantiate with a frame and add as a subview.
-	
-	MNFloatingActonButton *button = [MNFloatingActionButton alloc] initWithFrame:CGRect(0,0,50,50))];
-	[self.view addSubview:button];
-	
-As it is a subclass of UIControl, you can add a target to listen to touch events. The touch events that are sent are:
+```ruby
+pod "MNFloatingActionButton"
+```
 
-* UIControlEventTouchUpInside
-* UIControlEventTouchCancel
+## Author
 
-		[button addTarget:self action:@selector(createButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+Matt Nydam, matt@matthewnydam.com
 
+## License
 
-You can also use MNFloatingActionButton in Storyboards and xibs by creating a UIView object and changing it's custom class to MNFloatingActionButton.
-	
-###Customisation
-
-There are currently 7 properties that you can modify to customise your button. They are:
-
-* centerImageView - Set to nil if you don't want an image
-* backgroundColor - Defaults to some kinda blue
-* shadowColor - Defaults to the background color.
-* shadowOpacity - Default is 0.6f
-* shadowRadius - Default is 1.5f
-* animationScale - Set's the end size of button when pressed. Defaults to 0.85f
-* animationDuration - Defaults to 0.05f
-
-
-###Thanks
-
-I did this because I thought it might be fun for people to play around with. If you like, or you don't like it, then help make it better with a PR!
+MNFloatingActionButton is available under the MIT license. See the LICENSE file for more info.

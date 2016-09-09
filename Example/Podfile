@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MNFloatingActionButton_Example' do
+  pod 'MNFloatingActionButton', :path => '../'
+
+  target 'MNFloatingActionButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
