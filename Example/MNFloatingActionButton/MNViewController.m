@@ -7,6 +7,7 @@
 //
 
 #import "MNViewController.h"
+#import <MNFloatingActionButton/MNFloatingActionButton.h>
 
 @interface MNViewController ()
 
@@ -17,13 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+	[self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

@@ -166,6 +166,10 @@ static const CGFloat shadowRadius = 1.5f;
     return _backgroundCircle;
 }
 
+//TODO: https://github.com/onmyway133/Paramount/blob/master/Sources/UIImage%2BExtension.swift TURN IN TO A REAL BUNDLE MAYBE?
+
+//https://guides.cocoapods.org/syntax/podspec.html#resource_bundles
+
 - (UIImageView *)centerImageView
 {
     if (!_centerImageView) {

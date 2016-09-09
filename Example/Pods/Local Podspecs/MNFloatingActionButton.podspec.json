@@ -19,5 +19,10 @@
   "platforms": {
     "ios": "7.0"
   },
-  "source_files": "MNFloatingActionButton/Classes/**/*"
+  "source_files": "MNFloatingActionButton/Classes/**/*",
+  "resource_bundles": {
+    "MNFloatingActionButton": [
+      "MNFloatingActionButton/Assets/*.png"
+    ]
+  }
 }
