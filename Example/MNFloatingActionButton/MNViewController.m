@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     
-    MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
 	[self.view addSubview:button];
 }
 
