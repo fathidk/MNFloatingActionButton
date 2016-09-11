@@ -11,6 +11,8 @@
 
 @interface MNViewController ()
 
+- (IBAction)storyboardButtonPressed:(id)sender;
+
 @end
 
 @implementation MNViewController
@@ -19,9 +21,22 @@
 {
     [super viewDidLoad];
     
-    MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(50, 50, 50, 50)];
 	[self.view addSubview:button];
+    
+    [button addTarget:self action:@selector(codeGeneratedButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
+- (IBAction)codeGeneratedButtonPressed:(id)sender
+{
+    NSLog(@"Code generated button pressed");
+}
+
+
+- (IBAction)storyboardButtonPressed:(id)sender
+{
+    NSLog(@"Storyboard button pressed");
+}
 
 @end
