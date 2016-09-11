@@ -70,8 +70,6 @@ static const CGFloat shadowRadius = 1.5f;
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
-    self.centerImageView.center = self.backgroundCircle.center;
 
     if (!self.isAnimating) {
         
@@ -83,6 +81,8 @@ static const CGFloat shadowRadius = 1.5f;
         [self.backgroundCircle.layer setShadowRadius:self.shadowRadius];
         [self.backgroundCircle.layer setShadowOffset:CGSizeMake(1.0, 1.0)];
     }
+    
+    self.centerImageView.center = self.backgroundCircle.center;
 }
 
 #pragma mark - Touch Events
@@ -169,9 +169,20 @@ static const CGFloat shadowRadius = 1.5f;
 - (UIImageView *)centerImageView
 {
     if (!_centerImageView) {
-        _centerImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"plus"]];
+        _centerImageView = [[UIImageView alloc] initWithImage:[self loadImageFromBundleWithName:@"plus"]];
     }
     return _centerImageView;
+}
+
+#pragma mark - Bundle Loading
+
+- ( UIImage * _Nullable )loadImageFromBundleWithName:(NSString *)name
+{
+    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+    NSURL *podBundleURL = [bundle URLForResource:@"MNFloatingActionButton" withExtension:@"bundle"];
+    NSBundle *podBundle = [NSBundle bundleWithURL:podBundleURL];
+
+    return [UIImage imageNamed:name inBundle:podBundle compatibleWithTraitCollection:nil];;
 }
 
 @end
