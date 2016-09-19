@@ -18,6 +18,7 @@ typedef NS_ENUM(NSInteger, ShadowState) {
 @property (nonatomic) BOOL isAnimating;
 
 @property (nonatomic, strong) UIView *backgroundCircle;
+@property (nonatomic, strong) UIImageView *centerImageView;
 
 - (void)animateToSelectedState;
 - (void)animateToDeselectedState;
@@ -155,6 +156,11 @@ static const CGFloat shadowRadius = 1.5f;
     _backgroundCircle.backgroundColor = _backgroundColor;
 }
 
+- (void)setCenterImage:(UIImage *)centerImage
+{
+    _centerImage = centerImage;
+    _centerImageView.image = _centerImage;
+}
 
 #pragma mark - Getters
 

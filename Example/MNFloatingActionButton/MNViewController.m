@@ -26,6 +26,7 @@
     
     [button addTarget:self action:@selector(codeGeneratedButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
+    [button setCenterImage:[UIImage imageNamed:@"Star"]];
 }
 
 - (IBAction)codeGeneratedButtonPressed:(id)sender
