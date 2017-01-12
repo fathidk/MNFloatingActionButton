@@ -1,15 +1,7 @@
-#
-# Be sure to run `pod lib lint MNFloatingActionButton.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "MNFloatingActionButton"
   s.summary          = "A F.A.B for iOS. Such fabulous."
-  s.version          = '0.1.5'
+  s.version          = '2.0.0'
   s.description      = <<-DESC
   "A customisable FAB (Floating Action Button)"
                        DESC
@@ -22,8 +14,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'MNFloatingActionButton/Classes/**/*'
-  #s.resources = 'MNFloatingActionButton/Assets/*'
-
   s.resource_bundle = {
     'MNFloatingActionButton' => ['MNFloatingActionButton/Assets/*.png']
   }

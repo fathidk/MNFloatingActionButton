@@ -13,8 +13,7 @@ IB_DESIGNABLE
 
 // -- Appearance
 
-// Defaults to plus symbol. Set to nil to remove image completely.
-@property (nonatomic, strong) IBInspectable UIImageView *centerImageView;
+@property (nonatomic, strong) IBInspectable UIImage *centerImage;
 @property (nonatomic, strong) IBInspectable UIColor *backgroundColor;
 
 // Defaults to background color because I was inspired by this http://ianstormtaylor.com/design-tip-never-use-black/
