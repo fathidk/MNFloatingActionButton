@@ -8,15 +8,15 @@ A little iOS experiment, a Floating Action Button.
 
 As Cocoapod https://cocoapods.org
 
-	pod 'MNFloatingActionButton', '~> 0.1'
+	pod 'MNFloatingActionButton', '~> 2,0'
 
 Alternatively, add the images and .h &.m files to your project.
 
 ###General Usage
 Just like a normal button, you instantiate with a frame and add as a subview.
 	
-	MNFloatingActonButton *button = [MNFloatingActionButton alloc] initWithFrame:CGRect(0,0,50,50))];
-	[self.view addSubview:button];
+	 MNFloatingActionButton *button = [[MNFloatingActionButton alloc] initWithFrame:CGRectMake(0,0,50,50)];
+	 [self.view addSubview:button];
 	
 As it is a subclass of UIControl, you can add a target to listen to touch events. The touch events that are sent are:
 
@@ -30,9 +30,9 @@ You can also use MNFloatingActionButton in Storyboards and xibs by creating a UI
 	
 ###Customisation
 
-There are currently 7 properties that you can modify to customise your button. They are:
+There are currently 6 properties that you can modify to customise your button. They are:
 
-* centerImageView - Set to nil if you don't want an image
+* centerImage - Set to nil if you don't want an image
 * backgroundColor - Defaults to some kinda blue
 * shadowColor - Defaults to the background color.
 * shadowOpacity - Default is 0.6f
